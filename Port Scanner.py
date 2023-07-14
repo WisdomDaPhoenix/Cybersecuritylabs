@@ -1,17 +1,13 @@
-# print(socket.gethostbyname('www.invoice.ng'))
-# print(socket.gethostbyname('www.bing.com'))
-# print(socket.gethostname())
-# print(socket.gethostbyaddr('204.79.197.200'))
-# input()
-
 import socket
 import sys
+
+hostipaddress = input("Enter host or website public ip address to scan now: ")
 
 try:
     for port in range(21,60):
         sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
         sock.settimeout(5)
-        result = sock.connect_ex(('www.invoice.ng',port))
+        result = sock.connect_ex((hostipaddress,port))
         if result == 0:
             print("Port  {}:\t Open".format(port))
         else:
