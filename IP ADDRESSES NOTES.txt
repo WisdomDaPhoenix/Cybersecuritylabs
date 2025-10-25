@@ -1,0 +1,49 @@
+IP Addresses are generally divided into 2 families:
+1. IPv4  (32-bit address, Octet-based)
+2. IPv6  (Hexadecimal)
+
+IP Addresses can be of two distinct categories
+1. Private/Internal IP addresses
+2. Public IP addresses
+
+There are classes of IP addresses. Each class has its own address range.
+Class A, Class B, Class C, Class D and Class E
+
+In each class/address range, there are routable and non-routable addresses. Routable are those that can be used as public IPs over the internet while those that are non-routable are addresses which cannot be used publicly but only within an internal network. So for each class, there is a non-routable range of addresses.
+
+For each subnet mask, e.g. Class A, Class B and Class C below, the Network part is fixed in value (255)
+however the host value/number can change.
+
+255.0.0.0     		means Network.Host.Host.Host   		(N.H.H.H)
+255.255.0.0   		means Network.Network.Host.Host   	(N.N.H.H)
+255.255.255.0     	means Network.Network.Network.Host      (N.N.N.H)
+
+where 0 in the subnet mask represents the host/host part
+
+hence for:
+   Autoconfiguration IPv4 Address. . : 169.254.105.105(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.0.0
+The class above is class B due to its subnet mask and address range
+
+and also for:
+   IPv4 Address. . . . . . . . . . . : 172.22.192.1(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.240.0
+The class is also class B
+
+Ask as a question:  What class of IP address would a subnet mask of 255.255.240.0 fall under?
+
+
+Task 1. 
+What is the difference between a public and private IP address ?
+
+
+Task 2
+How does a switch differ from a router ?
+
+
+Task 3. 
+In a network of devices, 2 laptops, 1 smartphone, a router and a switch, which of these devices is considered to be the default gateway ?
+
+EXAM COMPASS TASK/EXERCISE
+
+
