@@ -1,0 +1,11 @@
+Modern Example: Browsing https://www.google.com
+1. Application (TCP/IP) / L5-7 (OSI): Your browser (HTTP/HTTPS) uses DNS (Application layer) to resolve google.com to an IP address. TLS (Presentation/Session layer) handles the encryption.
+
+2. Transport (TCP/IP) / L4 (OSI): Your device establishes a TCP connection to Google's IP address on port 443 (for HTTPS). It breaks your HTTP request into segments.
+
+3. Internet (TCP/IP) / L3 (OSI): Your device wraps the TCP segments into IP packets and adds the source and destination IP addresses. A router then forwards these packets towards Google's network.
+
+4. Network Access (TCP/IP) / L1-2 (OSI): Your Wi-Fi card (Physical) wraps the IP packets into Ethernet frames (Data Link) with your MAC address and your router's MAC address and transmits them as radio signals.
+
+Google's server receives the signals and reverses the process, unpacking the data layer by layer until it can read the original HTTPS request.
+
