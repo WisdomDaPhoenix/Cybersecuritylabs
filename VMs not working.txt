@@ -1,0 +1,17 @@
+VMs not working:
+
+
+Uncheck/Disable 3D Acceleration  (Settings - Display)
+
+OR 
+
+
+bcdedit /set hypervisorlaunchtype off = ✅ Hypervisor disabled at boot
+
+Windows Features still checked = ✅ Components remain installed
+
+This prevents clashes between 
+
+This is actually the recommended approach if you occasionally need Hyper-V or WSL2. Just use bcdedit /set hypervisorlaunchtype auto and reboot when you need those features.
+
+Your VirtualBox/VMware should now work perfectly!

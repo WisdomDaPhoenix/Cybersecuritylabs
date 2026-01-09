@@ -1,0 +1,57 @@
+Integration	AND  Description
+
+Log Analytics workspace	A Log Analytics workspace in Azure Monitor is a unique environment to store log data. Each workspace has its own data repository and configuration. Data sources and solutions are configured to store their data in a specific workspace. After the solution is deployed into a subscription, Azure Monitor logs are generated automatically.
+
+Microsoft Defender for Cloud	Microsoft Defender for Cloud is a unified security management system for infrastructure. It strengthens the security of datacenters, and it provides advanced threat protection across hybrid workloads in the cloud or on-premises.
+
+Microsoft Sentinel	Microsoft Sentinel is a cloud-native security information and event management (SIEM) solution. It provides security analytics, alert detection, and automated threat response across an environment.
+
+Azure NetApp Files	Azure NetApp Files shares can be mounted from VMs that are created in the Azure VMware Solution environment. Azure NetApp Files supports Server Message Block (SMB) and Network File System (NFS) protocols. This support means the volumes can be mounted on the Linux client and can be mapped on a Windows client.
+
+Azure Backup Server	You can use Azure Backup Server to back up VMware VMs running on VMware ESXi hosts or vCenter Server to Azure.
+
+Azure Application Gateway	You can help protect web apps on Azure VMware Solution by using Azure Application Gateway. It's a layer-7 load balancer that enables the management of traffic to web applications.
+
+
+Azure Traffic Manager	You can deploy Traffic Manager to balance Azure VMware Solution workloads. The integration balances application workloads across multiple endpoints.
+
+An Azure VMware Solution assessment describes readiness, number of nodes required, and usage across nodes. It also provides a monthly cost estimate.
+
+Go to Migration goals > Servers.
+Select Assessments in Azure Migrate: Server Assessment.
+Select the Azure VMware Solution assessment to open.
+Review and edit the assessment settings applicable to your requirements.
+
+Statuses after assessment
+1. Ready for Azure VMware Solution
+2. Ready with conditions
+3. Not ready for Azure VMware Solution
+4. Readiness unknown
+
+A zero trust security model emphasizes the principle of 'never trust, always verify.' This model necessitates the verification of the user identity and context before granting access to resources, regardless of whether the access attempt is from within or outside the organization's network.
+
+In the context of cloud data security, 'BYOK' stands for Bring Your Own Key. It's a security model that allows cloud service customers to use their encryption keys for services such as data encryption in the cloud, maintaining control and ownership of their keys.
+
+Infrastructure as Code (IaC) improves the aspect of cloud security related to consistency and repeatability of environment setups. By treating infrastructure setup code as any other software code, IaC allows for version control and standardization, reducing the likelihood of human error during setup and configuration.
+
+A key advantage of using containerized environments for cloud workloads is that they require fewer computational resources than traditional virtual machines (VMs). This is because containers share the host system’s kernel and make better use of system resources.
+
+Security Assertion Markup Language (SAML) assertions are used in cloud security to facilitate Single Sign-On (SSO). They allow secure transmission of authentication and authorization data between an identity provider and a service provider, simplifying the sign-on process for users across different services.
+
+An Identity and Access Management (IAM) system is crucial in cloud security for defining and managing user roles and access privileges to resources within the cloud. It ensures that only the right users have access to certain resources based on their role or specific permissions.
+
+Web Application Firewalls (WAFs) and traditional network firewalls differ primarily in that WAFs are designed to protect against threats at the application layer, such as cross-site scripting (XSS) and SQL injection, while traditional network firewalls operate at the network layer and are more focused on controlling incoming and outgoing network traffic based on an established set of security rules.
+
+Cloud DDoS Protection maintains cloud security by safeguarding against Distributed Denial of Service (DDoS) attacks. It functions by continuously monitoring cloud resources for abnormal traffic patterns and automatically mitigating malicious traffic to prevent or minimize service disruption.
+
+API security is crucial for cloud services because Application Programming Interfaces (APIs) manage and control a large volume of inter-service communications within cloud platforms. Secure APIs are vital in ensuring that data transmission, access control, and service interoperability are conducted in a secure manner.
+
+VM escape is a process that allows an attacker to access the host machine from within the virtual environment, compromising the security boundary between the VM and the host, uniquely pertaining to virtualization.
+
+The primary difference is that symmetric encryption uses a single key to both encrypt and decrypt data, whereas asymmetric encryption uses a pair of public and private keys for encryption and decryption, respectively.
+
+User Role Management is an administrative control because it entails policies and procedures to manage users and their access privileges within an organization.
+
+Public Key Infrastructure (PKI) is essential for establishing a secure and trustworthy online environment because it provides the set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption
+
+The primary benefit of using a Cloud Access Security Broker (CASB) is the centralization of security policy enforcement across multiple cloud services. CASBs help organizations extend the reach of their security policies from their own infrastructure to their cloud-based assets.
